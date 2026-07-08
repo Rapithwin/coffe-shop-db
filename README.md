@@ -6,7 +6,7 @@ University Database Systems project covering database analysis, design, normaliz
 The coffee shop employs Staff who serve Customers. Customers can join a loyalty program to track their contact info and points. When a sale occurs, a staff member records an Order that includes one or more Products (beverages or bakery items). The shop tracks Inventory (like beans and flour) provided by various Suppliers to ensure they never run out of stock.
 
 **Entities and Attributes**
-- Staff: staff_id, name(first, last), address(city, street, postal_code), phone, salary, hire_date, birth_date
+- Staff: staff_id, name(first, last), address(city, street, postal_code), phone, salary, hire_date, birth_date, start_time, end_time
 - Customer: customer_id, name(first, last), phone, address(city, street, postal_code) 
 - Item: item_id, name(first, last), description, price, sale_price
 - Order: order_id, date, time, total_payment, payment_method
